@@ -1,0 +1,37 @@
+{
+  "name": "instagram.css",
+  "version": "0.1.0",
+  "homepage": "http://picturepan2.github.io/instagram.css",
+  "author": "Yan Zhu <picturepan2@hotmail.com>",
+  "description": "Instagram.css",
+  "main": "dist/instagram.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picturepan2/instagram.css.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "pure-css",
+    "filters"
+  ],
+  "bugs": {
+    "url": "https://github.com/picturepan2/instagram.css/issues"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest"
+  },
+  "browserslist": [
+    "last 4 Chrome versions",
+    "Edge >= 12",
+    "Firefox ESR",
+    "last 4 Safari versions",
+    "last 4 Opera versions",
+    "Explorer >= 10"
+  ]
+}

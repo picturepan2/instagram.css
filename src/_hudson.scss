@@ -1,0 +1,17 @@
+// Hudson Filter 
+.filter-hudson {
+  filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg);
+
+  &::before {
+    background: radial-gradient(circle at center center, transparent 25%, rgba(25, 62, 167, 0.25) 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+}

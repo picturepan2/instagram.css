@@ -3,14 +3,41 @@
   position: relative;
 }
 
+[class*="filter"]::before {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .filter-1977 {
   -webkit-filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
   filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
 }
 
+.filter-brooklyn {
+  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg);
+  filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg);
+}
+
+.filter-brooklyn::before {
+  background: rgba(127, 187, 227, .2);
+  content: "";
+  mix-blend-mode: overlay;
+}
+
 .filter-clarendon {
   -webkit-filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg);
   filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg);
+}
+
+.filter-clarendon::before {
+  background: rgba(127, 187, 227, .4);
+  content: "";
+  mix-blend-mode: overlay;
 }
 
 .filter-hudson {
@@ -19,19 +46,12 @@
 }
 
 .filter-hudson::before {
-  background: -moz-radial-gradient(center center, circle, transparent 25%, rgba(25, 62, 167, .25) 100%);
-  background: radial-gradient(circle at center center, transparent 25%, rgba(25, 62, 167, .25) 100%);
-  background: -o-radial-gradient(center center, circle, transparent 25%, rgba(25, 62, 167, .25) 100%);
-  background: -webkit-radial-gradient(center center, circle, transparent 25%, rgba(25, 62, 167, .25) 100%);
+  background: radial-gradient(circle closest-corner, transparent 25%, rgba(25, 62, 167, .25) 100%);
+  background: -o-radial-gradient(circle closest-corner, transparent 25%, rgba(25, 62, 167, .25) 100%);
+  background: -moz-radial-gradient(circle closest-corner, transparent 25%, rgba(25, 62, 167, .25) 100%);
+  background: -webkit-radial-gradient(circle closest-corner, transparent 25%, rgba(25, 62, 167, .25) 100%);
   content: "";
-  display: block;
-  height: 100%;
-  left: 0;
   mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }
 
 .filter-moon {
@@ -55,17 +75,10 @@
 }
 
 .filter-xpro-ii::before {
-  background: -moz-radial-gradient(center center, circle, transparent 0, rgba(0, 0, 0, .65) 100%);
-  background: radial-gradient(circle at center center, transparent 0, rgba(0, 0, 0, .65) 100%);
-  background: -o-radial-gradient(center center, circle, transparent 0, rgba(0, 0, 0, .65) 100%);
-  background: -webkit-radial-gradient(center center, circle, transparent 0, rgba(0, 0, 0, .65) 100%);
+  background: radial-gradient(circle closest-corner, transparent 0, rgba(0, 0, 0, .65) 100%);
+  background: -o-radial-gradient(circle closest-corner, transparent 0, rgba(0, 0, 0, .65) 100%);
+  background: -moz-radial-gradient(circle closest-corner, transparent 0, rgba(0, 0, 0, .65) 100%);
+  background: -webkit-radial-gradient(circle closest-corner, transparent 0, rgba(0, 0, 0, .65) 100%);
   content: "";
-  display: block;
-  height: 100%;
-  left: 0;
   mix-blend-mode: multiply;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }

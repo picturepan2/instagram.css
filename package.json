@@ -27,11 +27,6 @@
     "gulp-sass": "latest"
   },
   "browserslist": [
-    "last 4 Chrome versions",
-    "Edge >= 12",
-    "Firefox ESR",
-    "last 4 Safari versions",
-    "last 4 Opera versions",
-    "Explorer >= 10"
+    "> 0%"
   ]
 }

@@ -1,10 +1,10 @@
 // Slumber Filter 
 .filter-slumber {
-  filter: sepia(.65) contrast(.95) brightness(1.25) saturate(2);
+  filter: sepia(.45) contrast(.95) brightness(1.25) saturate(1.5);
 
   &::before {
-    background: rgba(127, 187, 227, .4);
+    background: rgba(125, 105, 24, .25);
     content: "";
-    mix-blend-mode: multiply;
+    mix-blend-mode: lighten;
   }
 }

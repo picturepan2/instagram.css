@@ -65,6 +65,11 @@
   mix-blend-mode: multiply;
 }
 
+.filter-lark {
+  -webkit-filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25);
+  filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25);
+}
+
 .filter-moon {
   -webkit-filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);
   filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);

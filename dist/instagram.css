@@ -40,6 +40,17 @@
   mix-blend-mode: overlay;
 }
 
+.filter-gingham {
+  -webkit-filter: contrast(1.1) brightness(1.1);
+  filter: contrast(1.1) brightness(1.1);
+}
+
+.filter-gingham::before {
+  background: #e6e6e6;
+  content: "";
+  mix-blend-mode: soft-light;
+}
+
 .filter-hudson {
   -webkit-filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg);
   filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg);

@@ -1,0 +1,10 @@
+// Juno Filter 
+.filter-juno {
+  filter: sepia(.35) contrast(1.15) brightness(1.15) saturate(1.8);
+
+  &::before {
+    background: rgba(127, 187, 227, .2);
+    content: "";
+    mix-blend-mode: overlay;
+  }
+}

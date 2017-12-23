@@ -14,6 +14,54 @@ Download the compiled and minified [Instagram.css files](https://github.com/pict
 
 Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML source code and paste it to anywhere you want. All filters use the same HTML structure with different `filter-[filter-name]` classes.
 
+```
+<figure class="filter-[filter-name]">
+  <img src="assets/img/instagram-example.jpg">
+</figure>
+```
+
+## Available filters
+
+- 1977: `filter-1977`
+- Aden: `filter-aden`
+- Amaro
+- Ashby
+- Brannan
+- Brooklyn: `filter-brooklyn`
+- Charmes
+- Clarendon: `filter-clarendon`
+- Crema: `filter-crema`
+- Dogpatch
+- Earlybird
+- Gingham: `filter-gingham`
+- Ginza
+- Hefe
+- Helena
+- Hudson: `filter-hudson`
+- Inkwell
+- Kelvin
+- Kuno: `filter-juno`
+- Lark: `filter-lark`
+- Lo-Fi
+- Ludwig: `filter-ludwig`
+- Maven
+- Mayfair
+- Moon: `filter-moon`
+- Nashville
+- Perpetua
+- Reyes: `filter-reyes`
+- Rise
+- Sierra
+- Skyline
+- Slumber: `filter-slumber`
+- Stinson
+- Sutro
+- Toaster
+- Valencia
+- Vesper
+- Walden: `filter-walden`
+- Willow: `filter-willow`
+- X-Pro II: `filter-xpro-ii`
 
 ## Custom
 

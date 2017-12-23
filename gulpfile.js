@@ -24,4 +24,19 @@ gulp.task('build', function() {
     .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('demo', function() {
+  gulp.src('./assets/src/*.scss')
+    .pipe(sass({outputStyle: 'compact', precision: 10})
+      .on('error', sass.logError)
+    )
+    .pipe(autoprefixer())
+    .pipe(csscomb())
+    .pipe(gulp.dest('./assets/css'))
+    .pipe(cleancss())
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('./assets/css'));
+});
+
 gulp.task('default', ['build']);

@@ -54,7 +54,7 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 - Sierra `filter-sierra`
 - Skyline `filter-skyline`
 - Slumber `filter-slumber`
-- Stinson
+- Stinson `filter-stinson`
 - Sutro `filter-sutro`
 - Toaster `filter-toaster`
 - Valencia `filter-valencia`

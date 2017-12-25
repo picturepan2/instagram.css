@@ -1,0 +1,10 @@
+// Ginza Filter 
+.filter-ginza {
+  filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg);
+
+  &::before {
+    background: rgba(125, 105, 24, .15);
+    content: "";
+    mix-blend-mode: darken;
+  }
+}

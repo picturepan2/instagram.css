@@ -1,0 +1,10 @@
+// Valencia Filter 
+.filter-valencia {
+  filter: sepia(.25) contrast(1.1) brightness(1.1) ;
+
+  &::before {
+    background: rgba(230, 193, 61, .1);
+    content: "";
+    mix-blend-mode: lighten;
+  }
+}

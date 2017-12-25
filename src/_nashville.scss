@@ -1,0 +1,10 @@
+// Nashville Filter 
+.filter-nashville {
+  filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg);
+
+  &::before {
+    background: radial-gradient(circle closest-corner, rgba(128, 78, 15, .5) 0, rgba(128, 78, 15, .65) 100%);
+    content: "";
+    mix-blend-mode: screen;
+  }
+}

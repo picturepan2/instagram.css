@@ -1,4 +1,10 @@
 // Walden Filter 
 .filter-walden {
-  filter: sepia(.6) contrast(.75) brightness(1.25) saturate(2);
+  filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4);
+
+  &::before {
+    background: rgba(229, 240, 128, .5);
+    content: "";
+    mix-blend-mode: darken;
+  }
 }

@@ -1,0 +1,10 @@
+// Maven Filter 
+.filter-maven {
+  filter: sepia(.35) contrast(1.05) brightness(1.05) saturate(1.75);
+
+  &::before {
+    background: rgba(158, 175, 30, .25);
+    content: "";
+    mix-blend-mode: darken;
+  }
+}

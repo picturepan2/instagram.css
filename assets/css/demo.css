@@ -33,6 +33,12 @@
   box-shadow: 0 .3rem 2rem rgba(51, 51, 51, .15);
 }
 
+.section-filters .card-image img {
+  -webkit-border-radius: .1rem;
+  -moz-border-radius: .1rem;
+  border-radius: .1rem;
+}
+
 .section-footer {
   color: #acb3c2;
   padding: 1.8rem .75rem 1rem .75rem;

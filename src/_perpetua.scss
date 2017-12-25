@@ -1,0 +1,10 @@
+// Perpetua Filter 
+.filter-perpetua {
+  filter: contrast(1.1) brightness(1.25) saturate(1.1);
+
+  &::before {
+    background: linear-gradient(to bottom, rgba(0, 91, 154, .25), rgba(230, 193, 61, .25));
+    content: "";
+    mix-blend-mode: multiply;
+  }
+}

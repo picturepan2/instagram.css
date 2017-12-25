@@ -33,6 +33,10 @@
 
     .card-image {
       box-shadow: 0 .3rem 2rem rgba(#333, .15);
+
+      img {
+        border-radius: .1rem;
+      }
     }
   }
   

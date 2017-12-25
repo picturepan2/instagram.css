@@ -1,0 +1,10 @@
+// Earlybird Filter 
+.filter-earlybird {
+  filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg);
+
+  &::before {
+    background: radial-gradient(circle closest-corner, transparent 0, rgba(125, 105, 24, .2) 100%);
+    content: "";
+    mix-blend-mode: multiply;
+  }
+}

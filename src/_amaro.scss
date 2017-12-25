@@ -1,0 +1,10 @@
+// Amaro Filter 
+.filter-amaro {
+  filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3);
+
+  &::before {
+    background: rgba(125, 105, 24, .2);
+    content: "";
+    mix-blend-mode: overlay;
+  }
+}

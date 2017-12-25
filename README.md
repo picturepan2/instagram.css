@@ -22,46 +22,46 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 
 ## Available filters
 
-- 1977: `filter-1977`
-- Aden: `filter-aden`
-- Amaro
-- Ashby
-- Brannan
-- Brooklyn: `filter-brooklyn`
-- Charmes
-- Clarendon: `filter-clarendon`
-- Crema: `filter-crema`
-- Dogpatch
-- Earlybird
-- Gingham: `filter-gingham`
-- Ginza
-- Hefe
-- Helena
-- Hudson: `filter-hudson`
-- Inkwell
-- Kelvin
-- Kuno: `filter-juno`
-- Lark: `filter-lark`
-- Lo-Fi
-- Ludwig: `filter-ludwig`
-- Maven
-- Mayfair
-- Moon: `filter-moon`
-- Nashville
-- Perpetua
-- Reyes: `filter-reyes`
-- Rise
-- Sierra
-- Skyline
-- Slumber: `filter-slumber`
+- 1977 `filter-1977`
+- Aden `filter-aden`
+- Amaro `filter-amaro`
+- Ashby `filter-ashby`
+- Brannan `filter-brannan`
+- Brooklyn `filter-brooklyn`
+- Charmes `filter-charmes`
+- Clarendon `filter-clarendon`
+- Crema `filter-crema`
+- Dogpatch `filter-dogpatch`
+- Earlybird `filter-earlybird`
+- Gingham `filter-gingham`
+- Ginza `filter-ginza`
+- Hefe `filter-hefe`
+- Helena `filter-helena`
+- Hudson `filter-hudson`
+- Inkwell `filter-inkwell`
+- Kelvin `filter-kelvin`
+- Kuno `filter-juno`
+- Lark `filter-lark`
+- Lo-Fi `filter-lofi`
+- Ludwig `filter-ludwig`
+- Maven `filter-maven`
+- Mayfair `filter-mayfair`
+- Moon `filter-moon`
+- Nashville `filter-nashville`
+- Perpetua `filter-perpetua`
+- Reyes `filter-reyes`
+- Rise `filter-rise`
+- Sierra `filter-sierra`
+- Skyline `filter-skyline`
+- Slumber `filter-slumber`
 - Stinson
-- Sutro
-- Toaster
-- Valencia
-- Vesper
-- Walden: `filter-walden`
-- Willow: `filter-willow`
-- X-Pro II: `filter-xpro-ii`
+- Sutro `filter-sutro`
+- Toaster `filter-toaster`
+- Valencia `filter-valencia`
+- Vesper `filter-vesper`
+- Walden `filter-walden`
+- Willow `filter-willow`
+- X-Pro II `filter-xpro-ii`
 
 ## Custom
 

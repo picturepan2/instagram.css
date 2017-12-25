@@ -1,0 +1,10 @@
+// Ashby Filter 
+.filter-ashby {
+  filter: sepia(.5) contrast(1.2) saturate(1.8);
+
+  &::before {
+    background: rgba(125, 105, 24, .35);
+    content: "";
+    mix-blend-mode: lighten;
+  }
+}

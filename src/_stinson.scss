@@ -1,0 +1,10 @@
+// Stinson Filter 
+.filter-stinson {
+  filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25);
+
+  &::before {
+    background: rgba(125, 105, 24, .45);
+    content: "";
+    mix-blend-mode: lighten;
+  }
+}

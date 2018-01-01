@@ -62,6 +62,7 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 - Walden `filter-walden`
 - Willow `filter-willow`
 - X-Pro II `filter-xpro-ii`
+- Poprocket(old) `filter-poprocket`
 
 ## Custom
 

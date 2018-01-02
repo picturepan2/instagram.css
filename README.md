@@ -69,7 +69,7 @@ You can custom Instagram.css by modifing SASS `.scss` files located in `src` fol
 
 ## Browser support
 
-Devices.css uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers. For best compatibility, these browsers are recommended:
+Instagram.css uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers. For best compatibility, these browsers are recommended:
 
 - Chrome (18+)
 - Microsoft Edge (13+)
@@ -79,4 +79,4 @@ Devices.css uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make
 
 Built with ♥ by [Yan Zhu](https://twitter.com/picturepan2). Feel free to submit a pull request. Help is always appreciated.
 
-Devices.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥ 
+Instagram.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥ 

@@ -6,7 +6,7 @@ var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('watch', function() {
-  gulp.watch('./src/*.scss', ['build']);
+  gulp.watch('./**/*.scss', ['build', 'demo']);
 });
 
 gulp.task('build', function() {

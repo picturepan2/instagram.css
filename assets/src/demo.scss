@@ -3,73 +3,73 @@
 
 /*! Instagram.css v#{$version} | MIT License | github.com/picturepan2/instagram.css */
 .version::after {
-    content: "#{$version}";
-  }
-  
-  /*  Core style */
-  .section-hero {
-    padding: 1rem .5rem;
-  }
-  
-  .section-ad {
-    background: $bg-color-dark;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  .section-filters {
-    .container {
-      padding-bottom: 3rem;
-      padding-top: 2rem;
-    }
-  
-    .column {
-      padding: 1rem;
-    }
+  content: "#{$version}";
+}
 
-    .card {
-      border: 0;
-    }
+/* Core style */
+.section-hero {
+  padding: 1rem .5rem;
+}
 
-    .card-image {
-      box-shadow: 0 .3rem 2rem rgba(#333, .15);
+.section-ad {
+  background: $bg-color-dark;
+  padding: 1rem 0;
+  text-align: center;
+}
 
-      img {
-        border-radius: .1rem;
-      }
-    }
-  }
-  
-  .section-footer {
-    color: $gray-color;
-    padding: 1.8rem .75rem 1rem .75rem;
-    position: relative;
-  
-    p {
-      line-height: 1;
-    }
-  
-    a {
-      color: $gray-color-dark;
-    }
-  }
-  
-  .grid-hero {
-    letter-spacing: -.021em;
-    padding-bottom: 2rem;
+.section-filters {
+  .container {
+    padding-bottom: 3rem;
     padding-top: 2rem;
-    position: relative;
-  
-    h1 {
-      color: $dark-color;
-      font-size: 1.6rem;
-      margin-bottom: 1rem;
-    }
-  
-    h2 {
-      color: $dark-color;
-      font-size: .8rem;
-      font-weight: 400;
-      margin-bottom: 1.5rem;
+  }
+
+  .column {
+    padding: 1rem;
+  }
+
+  .card {
+    border: 0;
+  }
+
+  .card-image {
+    box-shadow: 0 .3rem 2rem rgba(#333, .15);
+
+    img {
+      border-radius: .1rem;
     }
   }
+}
+
+.section-footer {
+  color: $gray-color;
+  padding: 1.8rem .75rem 1rem .75rem;
+  position: relative;
+
+  p {
+    line-height: 1;
+  }
+
+  a {
+    color: $gray-color-dark;
+  }
+}
+
+.grid-hero {
+  letter-spacing: -.021em;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  position: relative;
+
+  h1 {
+    color: $dark-color;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    color: $dark-color;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+}

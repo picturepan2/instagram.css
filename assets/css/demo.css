@@ -1,9 +1,9 @@
-/*! Instagram.css v0.1.2 | MIT License | github.com/picturepan2/instagram.css */
+/*! Instagram.css v0.1.3 | MIT License | github.com/picturepan2/instagram.css */
 .version::after {
-  content: "0.1.2";
+  content: "0.1.3";
 }
 
-/*  Core style */
+/* Core style */
 .section-hero {
   padding: 1rem .5rem;
 }

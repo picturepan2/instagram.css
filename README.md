@@ -16,7 +16,7 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 
 ```
 <figure class="filter-[filter-name]">
-  <img src="assets/img/instagram-example.jpg">
+  <img src="assets/img/instagram.jpg">
 </figure>
 ```
 

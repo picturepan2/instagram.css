@@ -49,6 +49,7 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 - Moon `filter-moon`
 - Nashville `filter-nashville`
 - Perpetua `filter-perpetua`
+- Poprocket `filter-poprocket`
 - Reyes `filter-reyes`
 - Rise `filter-rise`
 - Sierra `filter-sierra`
@@ -62,7 +63,6 @@ Go to [Demo page](https://picturepan2.github.io/instagram.css/) to copy the HTML
 - Walden `filter-walden`
 - Willow `filter-willow`
 - X-Pro II `filter-xpro-ii`
-- Poprocket(old) `filter-poprocket`
 
 ## Custom
 

@@ -429,3 +429,9 @@
   content: "";
   mix-blend-mode: multiply;
 }
+
+.filter-poprocket::before {
+  background-image: radial-gradient(circle closest-corner, rgba(206, 39, 70, 0.84) 10%, rgba(255, 255, 255, 0)), radial-gradient(circle closest-corner, rgba(15, 5, 46, 0.84) 90%, rgba(255, 255, 255, 0) 10%);
+  content: "";
+  mix-blend-mode: screen;
+}

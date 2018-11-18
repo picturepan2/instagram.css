@@ -8,11 +8,10 @@
 
 /* Core style */
 .section-hero {
-  padding: 1rem .5rem;
+  padding: 1.5rem .5rem;
 }
 
 .section-ad {
-  background: $bg-color-dark;
   padding: 1rem 0;
   text-align: center;
 }
@@ -35,8 +34,12 @@
     box-shadow: 0 .3rem 2rem rgba(#333, .15);
 
     img {
-      border-radius: .1rem;
+      border-radius: .2rem;
     }
+  }
+
+  .c-select-all {
+    user-select: all;
   }
 }
 
@@ -57,19 +60,80 @@
 .grid-hero {
   letter-spacing: -.021em;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   position: relative;
 
   h1 {
     color: $dark-color;
     font-size: 1.6rem;
+    font-weight: 600;
     margin-bottom: 1rem;
   }
 
   h2 {
-    color: $dark-color;
-    font-size: .8rem;
+    color: lighten($dark-color, 5%);
+    font-size: .9rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
+  }
+}
+
+.docs-ad {
+  background: $bg-color;
+  border-radius: .2rem;
+  display: block;
+  margin: 2rem 0;
+  padding: .5rem;
+  position: relative;
+
+  ins {
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  .carbon-wrap {
+    .carbon-img {
+      display: block;
+    }
+  
+    .carbon-text {
+      color: $gray-color-dark;
+      display: block;
+      font-size: .6rem;
+    }
+  }
+  
+  .carbon-poweredby {
+    color: $gray-color;
+    font-size: .6rem;
+  }
+}
+
+.code {
+  .hljs-tag {
+    color: lighten($dark-color, 10%);
+  }
+
+  .hljs-comment {
+    color: $gray-color;
+  }
+
+  .hljs-title,
+  .hljs-class,
+  .hljs-string {
+    color: $primary-color;
+  }
+
+  .hljs-name,
+  .hljs-attribute,
+  .hljs-variable,
+  .hljs-keyword,
+  .hljs-built_in {
+    color: $code-color;
+  }
+
+  .hljs-value,
+  .hljs-hexcolor {
+    color: lighten($dark-color, 10%);
   }
 }

@@ -109,6 +109,18 @@
   }
 }
 
+@media (min-width: 1366px) {
+  .docs-ad {
+    &.docs-ad-sidebar {
+      bottom: 1rem;
+      margin: 0;
+      position: fixed;
+      right: 1rem;
+      width: 7.3rem;
+    }
+  }
+}
+
 .code {
   .hljs-tag {
     color: lighten($dark-color, 10%);

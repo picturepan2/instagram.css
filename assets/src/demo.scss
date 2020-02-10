@@ -19,7 +19,7 @@
 .section-filters {
   .container {
     padding-bottom: 3rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   .column {
@@ -66,7 +66,7 @@
   h1 {
     color: $dark-color;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 
@@ -85,28 +85,6 @@
   margin: 2rem 0;
   padding: .5rem;
   position: relative;
-
-  ins {
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .carbon-wrap {
-    .carbon-img {
-      display: block;
-    }
-  
-    .carbon-text {
-      color: $gray-color-dark;
-      display: block;
-      font-size: .6rem;
-    }
-  }
-  
-  .carbon-poweredby {
-    color: $gray-color;
-    font-size: .6rem;
-  }
 }
 
 @media (min-width: 1366px) {

@@ -15,7 +15,7 @@
 
 .section-filters .container {
   padding-bottom: 3rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .section-filters .column {
@@ -69,7 +69,7 @@
 .grid-hero h1 {
   color: #303742;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -89,26 +89,6 @@
   margin: 2rem 0;
   padding: .5rem;
   position: relative;
-}
-
-.docs-ad ins {
-  line-height: 1;
-  vertical-align: middle;
-}
-
-.docs-ad .carbon-wrap .carbon-img {
-  display: block;
-}
-
-.docs-ad .carbon-wrap .carbon-text {
-  color: #66758c;
-  display: block;
-  font-size: .6rem;
-}
-
-.docs-ad .carbon-poweredby {
-  color: #bcc3ce;
-  font-size: .6rem;
 }
 
 @media (min-width: 1366px) {

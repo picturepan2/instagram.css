@@ -1,6 +1,6 @@
 # Instagram.css
 
-Instagram.css - Pure CSS Instagram filters. You can add all these Instagram-like filters to your photos with using CSS only. Thanks to the [CSSgram](https://github.com/una/CSSgram) for inspiration.
+Instagram.css - Pure CSS Instagram filters. You can add all these Instagram-like filters to your photos just using CSS only. Thanks to the [CSSgram](https://github.com/una/CSSgram) for inspiration.
 
 ## What's next
 
